@@ -2,15 +2,15 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-
-        for (int i = 1; i <= 10; i++) {
-            if (i % 2 == 0) {
-                System.out.println(i + "is an even number");
-            } else {
-                System.out.println(i + "is an odd number");
-            }
-        }   
         
-        System.out.println("All finished");
+        System.out.println("Start first Loop");
+        for (int i = 0; i <= 19; i = i +1){
+        System.out.println("End first loop");
+
+        System.out.println("Start second loop");
+        for (int i = -1; i <= 19; i = i +1){
+        System.out.println("End second loop");
+
+        }
     }
-}           
+}
